@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SchedulerImpl {
 
+	//This is constant
 	private static final String YYYY_MM_DD_HH_MM_SS_SSS = "yyyy-MM-dd HH:mm:ss.SSS";
 
 	@Scheduled(fixedRateString = "${scheduler.CT}")
